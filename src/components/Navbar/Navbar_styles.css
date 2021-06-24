@@ -4,7 +4,6 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border: 1px solid black;
     padding: 0px 100px;
 }
 
@@ -16,6 +15,7 @@ nav {
 }
 
 .brand-name {
+    color: black;
     font-size: 1.5rem;
     font-weight: bolder;
     text-align: center;
@@ -44,32 +44,12 @@ nav {
 .nav-link {
     font-size: 1rem;
     text-decoration: none;
+    color: rgb(61, 130, 233);
+    font-weight: bolder;
 }
 
 .sign-in-up-container {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.sign-in {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px 40px;
-    font-size: 1rem;
-    margin: 0 5px;
-    border: 1px solid black;
-    border-radius: 5px;
-}
-
-.sign-up {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px 40px;
-    margin: 0 5px;
-    font-size: 1rem;
-    border: 1px solid black;
-    border-radius: 5px;
 }
