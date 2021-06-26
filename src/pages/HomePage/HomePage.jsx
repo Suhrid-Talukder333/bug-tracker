@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../../components/Navbar/Navbar";
 import Buttons from "../../components/Buttons/Buttons";
-import HeroImg from "../../assets/plan.png";
+import HeroImg from "../../assets/plan.svg";
 import "./HomePage_styles.css";
 
 const HomePage = () => {
@@ -20,7 +20,7 @@ const HomePage = () => {
             </p>
           </div>
           <div className="hero-buttons-container">
-            <Buttons title="Create Account" url="#" bg="white" />
+            <Buttons title="Create Account" url="login" bg="white" />
             <Buttons title="Learn More" url="#" bg="rgb(0, 200, 235)" />
           </div>
         </div>

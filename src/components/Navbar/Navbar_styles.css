@@ -1,5 +1,7 @@
 /* navbar start */
 nav {
+    font-family: 'Roboto',
+        sans-serif;
     height: 100px;
     display: flex;
     align-items: center;
